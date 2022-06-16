@@ -12,10 +12,9 @@ int main() {
 
     // return 0;
 
-    float b = a + 8.9 ;
+    
     float a = 1.1;
-
-    printf("The value of b is %f \n", b); // This will show error
-
+    float b = a + 8.9 ;
+    printf("The value of b is %f \n", b); // This will not show error
 
 }
