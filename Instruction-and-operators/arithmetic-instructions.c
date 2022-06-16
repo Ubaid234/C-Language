@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<math.h>
 
 int main() {
     
@@ -22,5 +23,15 @@ int main() {
 
     printf(" The value of 4 and 5 %d \n " , 4 * 5);
 
+    // Finding power since there is no operator to find in c;
+
+    printf(" The value of 4 to the power 5 is %f \n", pow(4,5));
+
+    // Type conversion 
+
+    printf(" The Value of 6 + 4 is %d \n" , 6 + 4 );
+    printf(" The Value of 6 + 4.34 is %f \n" , 6 + 4.34 );
+    printf(" The Value of 6.3 + 4.3 is %d \n" , 6.3 + 4.3 );
+    
     return 0;
 }                       
