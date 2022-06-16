@@ -15,5 +15,7 @@ int main() {
     float b = a + 8.9 ;
     float a = 1.1;
 
-    printf("The value of b is %f \n", b);
+    printf("The value of b is %f \n", b); // This will show error
+
+
 }
